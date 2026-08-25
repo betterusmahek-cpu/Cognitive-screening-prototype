@@ -1,0 +1,10 @@
+# The prototype API uses only the Python standard library (http.server,
+# json, urllib) so it has zero third-party runtime dependencies and no
+# API keys or SDKs to misconfigure. This file is kept so future work
+# (e.g. swapping urllib for the official `openai` SDK, or adding a
+# trained ML classifier per spec section 14) has an obvious place to add
+# pinned versions.
+#
+# openai>=1.40,<2.0
+# scikit-learn>=1.4,<2.0
+# numpy>=1.26,<2.0

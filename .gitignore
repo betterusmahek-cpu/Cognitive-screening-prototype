@@ -1,0 +1,17 @@
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel
+
+# Python
+__pycache__/
+*.pyc
+
+# Node (if the CLI adds anything)
+node_modules/
+
+# OS
+.DS_Store

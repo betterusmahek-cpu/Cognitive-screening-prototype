@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/questions.py": {
+      "runtime": "python3.12"
+    },
+    "api/screen.py": {
+      "runtime": "python3.12"
+    }
+  }
+}
